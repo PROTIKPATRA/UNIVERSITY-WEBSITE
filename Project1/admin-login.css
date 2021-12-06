@@ -1,0 +1,50 @@
+*{
+    padding: 10px;
+    margin: 0;
+}
+body{
+    background-color: rgb(61, 140, 231);
+}
+.container{
+    max-width: 40%;
+    padding: 35px;
+    margin: auto;
+    margin-top: 3em;
+    background-color: rgb(250, 249, 248);
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px 2px  black;
+}
+.container h1{
+    text-align: center;
+}
+input, textarea{
+    font-size: 16px;
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color:white;
+    background: rgb(61, 140, 231);
+    padding: 10px 10px;
+    font-size: 20px;
+    border: 2px solid white; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(61, 140, 231) ;
+    color: white;
+}
+.radio{
+    align-items: flex-start;
+    text-align: left;
+}
